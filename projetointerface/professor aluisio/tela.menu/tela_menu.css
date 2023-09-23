@@ -1,0 +1,56 @@
+:root {
+    --cor-principal: rgb(255, 255, 255);
+    --cor-secundaria: rgb(222, 228, 235);
+}
+
+nav {
+    max-width: 350px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    flex-direction: column;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    border-bottom: 1px solid var(--cor-secundaria);
+}
+
+nav ul li a {
+    margin: 0px;
+    background-color: var(--cor-principal);
+    color: #000000;
+    padding: 10px;
+    display: flex;
+    text-decoration: none;
+    transition: background .3s;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+
+.aba_menu {
+    margin: 0%;
+    background-color: rgb(238, 238, 238);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+   
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    box-shadow:black;
+     display: flex;
+      /* alina o input no centro*/
+  
+
+}

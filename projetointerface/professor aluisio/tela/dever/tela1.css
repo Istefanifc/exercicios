@@ -1,0 +1,124 @@
+body {
+    margin: 0%;
+    background-color: rgba(43, 99, 151, 0.233);
+}
+
+.contener {
+    background-color: white;
+    align-items: center;
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    box-shadow: rgba(15, 15, 15, 0.842);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    /* alina o input no centro*/
+    flex-direction: row;
+    top: 60px;
+}
+
+img {
+    height: 170px;
+    width: 170px;
+    display: flex;
+    margin: 0%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login {
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(174, 179, 180, 0.199);
+    padding: 6px;
+
+}
+
+#senha {
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(174, 179, 180, 0.199);
+    padding: 6px;
+}
+
+.botaoLogin {
+    top: 5px;
+    position: relative;
+    font-size: 17px;
+    /*deixa a fonte da letra grande */
+    text-transform: uppercase;
+    /*deixa tudo maiusculo*/
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: flex;
+    border-radius: 6em;
+    /*deixa o botao bem redondinho proporcionalmente*/
+    transition: all 1s;
+    border: none;
+    /*elimina a borda preta do botao*/
+    font-family: inherit;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.637);
+    background-color: rgba(0, 0, 0, 0.096);
+    display: flex;
+
+
+}
+
+#criarConta {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    border-radius: 6em;
+    border: none;
+    text-decoration: none;
+    font-family: monospace;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 0.5em;
+}
+
+#aumentar-fonte,
+#aumentar-contraste,
+#diminuir-fonte {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.637);
+    background-color: rgba(0, 0, 0, 0.096);
+    border-radius: 6em;
+    border: none;
+    text-decoration: none;
+    font-family: monospace;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+    padding: 10px 20px;
+    height: 30px;
+}
+
+.alto-contraste {
+    color: #000000;
+    background-color: #000;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+
+.btns {
+    padding-bottom: 100px;
+}
